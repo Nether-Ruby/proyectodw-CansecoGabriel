@@ -1,0 +1,73 @@
+.lang-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform : scale(1);
+    }
+    30% {
+        transform: scale(1.4)
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    70% {
+        transform: scale(1.4)
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.weblogo {
+    width: 30em;
+    height: 20em;
+    animation-name: heartbeat;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+.jslogo {
+    width: 25em;
+    height: 20em;
+    filter: grayscale(100%) blur(2px);
+}
+.pylogo {
+    width: 19em;
+    height: 20em;
+    filter: grayscale(100%) blur(2px);
+}
+.csharplogo {
+    width: 20em;
+    height: 20em;
+    filter: grayscale(100%) blur(2px);
+}
+.unitylogo {
+    width: 55em;
+    height: 20em;
+    filter: grayscale(100%) blur(2px);
+}
+.cpluslogo {
+    width: 20em;
+    height: 20em;
+    filter: grayscale(100%) blur(2px);
+}
+.unreallogo {
+    width: 20em;
+    height: 20em;
+    filter: grayscale(100%) blur(2px);
+}
+.lang-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 30rem;
+    position:relative;
+    left: 10vw;
+}

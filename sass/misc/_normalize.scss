@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    font-family: "VT323", monospace;
+}
+
+html {
+    font-size: 62.5%;
+    position: absolute;
+}
+body {
+    background-color: black !important;
+}
+
+h1 {
+    color: $hcolor;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+h2 {
+    color: $hcolor;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    margin-left: 25rem;
+    margin-right: 25rem;
+
+}
+p {
+    color: $pcolor;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}

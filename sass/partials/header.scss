@@ -1,0 +1,59 @@
+.header__bg {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./images/header-background.jpg);
+    background-image: url(../images/header-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+}
+@keyframes rainbowseizure {
+    0% {
+        color: white;
+    }
+    14% {
+        color: red;
+    }
+    28% {
+        color: orange;
+    }
+    42% {
+        color: yellow;
+    }
+    56% {
+        color: green;
+    }
+    70% {
+        color: lightblue;
+    }
+    84% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+a {
+  text-decoration: none;
+  color: white;
+  animation-name: rainbowseizure;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+
+  &:visited {
+    text-decoration: none;
+    color: white;
+    }
+}
+.nav-grid {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    position: relative;
+    top: 15vh;
+    font-size: 3em;
+    list-style: none;
+}

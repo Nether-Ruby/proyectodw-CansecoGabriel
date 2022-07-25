@@ -1,0 +1,72 @@
+@media screen and (max-width: 480px) {
+    /* index related items */
+    .nav-grid {
+        font-size: 1em;
+    }
+    h1 {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    p {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 1em;
+    }
+    .img__pfp {
+        width: 20em;
+        height: 20em;
+        left: 30vw;
+        top: -12vh;
+    }
+    /* journey related items */
+    .weblogo {
+        width: 5em;
+        height: 5em;
+    }
+    .jslogo {
+        width: 6em;
+        height: 5em;
+    }
+    .pylogo {
+        width: 4.5em;
+        height: 5em;
+    }
+    .csharplogo {
+        width: 5em;
+        height: 5em;
+    }
+    .unitylogo {
+        width: 12.5em;
+        height: 5em;
+    }
+    .cpluslogo {
+        width: 5em;
+        height: 5em;
+    }
+    .unreallogo {
+        width: 5em;
+        height: 5em;
+    }
+    .lang-grid {
+        grid-gap: 1rem;
+        left: 1vw;
+        justify-items: center;
+    }
+    /* contact related items */
+    .contact__fieldset-position {
+        left: 7vw;
+        top: 2vh;
+    }
+    fieldset {
+        width: 40rem;
+    }
+    /*  about related items */
+    h2 {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .video {
+        width: 37rem;
+        height: 40rem;
+    }
+}
