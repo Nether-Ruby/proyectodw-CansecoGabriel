@@ -30,7 +30,7 @@ p {
   margin-right: 25rem; }
 
 .header__bg {
-  width: 100%;
+  width: 100vw;
   height: 40vh;
   background-image: url(../images/header-background.webp) !important;
   background-repeat: no-repeat;
