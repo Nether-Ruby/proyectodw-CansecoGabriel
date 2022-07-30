@@ -30,10 +30,10 @@ p {
   margin-right: 25rem; }
 
 .header__bg {
-  width: 100vw;
+  width: 100%;
   height: 40vh;
-  background-image: url(./images/header-background.jpg);
-  background-image: url(../images/header-background.jpg);
+  background-image: url(./images/header-background.webp);
+  background-image: url(../images/header-background.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -201,14 +201,14 @@ label {
 @media screen and (max-width: 480px) {
   /* index related items */
   .nav-grid {
-    font-size: 1em; }
+    font-size: 1.2em; }
   h1, h2 {
     margin-left: 5rem;
     margin-right: 5rem; }
   p {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    font-size: 1em; }
+    font-size: 1.2em; }
   .img__pfp {
     width: 20em;
     height: 20em;
