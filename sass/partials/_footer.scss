@@ -4,3 +4,9 @@
     left: 660px;
     text-align: center;
 }
+.github {
+    @include socials(50px, 50px);
+}
+.ig {
+    @include socials (50px, 50px);
+}

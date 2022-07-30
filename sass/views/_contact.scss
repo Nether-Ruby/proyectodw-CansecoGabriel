@@ -4,7 +4,7 @@ fieldset {
     border-style: groove;
 }
 legend {
-    color: $pcolor;
+    color: map-get($colors, paragraph);
 }
 input {
     padding: 0.50rem;
@@ -12,7 +12,7 @@ input {
     margin: 0.5rem;
 }
 label {
-    color: $pcolor;
+    color: map-get($colors, paragraph);
     font-size: 2.3em;
 }
 .contact__fieldset-position {
