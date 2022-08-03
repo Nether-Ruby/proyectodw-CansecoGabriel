@@ -197,17 +197,73 @@ label {
   left: 38vw;
   top: 2vh; }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   /* index related items */
   .nav-grid {
-    font-size: 1.2em; }
+    font-size: 1.4em; }
+  h1, h2 {
+    margin-left: 4rem;
+    margin-right: 4rem; }
+  p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 2em; }
+  .img__pfp {
+    width: 20em;
+    height: 20em;
+    left: 20vw;
+    top: -12vh; }
+  /* journey related items */
+  .weblogo {
+    width: 5em;
+    height: 5em; }
+  .jslogo {
+    width: 6em;
+    height: 5em; }
+  .pylogo {
+    width: 4.5em;
+    height: 5em; }
+  .csharplogo {
+    width: 5em;
+    height: 5em; }
+  .unitylogo {
+    width: 12.5em;
+    height: 5em; }
+  .cpluslogo {
+    width: 5em;
+    height: 5em; }
+  .unreallogo {
+    width: 5em;
+    height: 5em; }
+  .lang-grid {
+    grid-gap: 1rem;
+    left: 1vw;
+    justify-items: center; }
+  /* contact related items */
+  .contact__fieldset-position {
+    left: 7vw;
+    top: 2vh; }
+  fieldset {
+    width: 27rem; }
+  /*  about related items */
+  h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .video {
+    width: 20rem;
+    height: 20rem; } }
+
+@media screen and (min-width: 480px) {
+  /* index related items */
+  .nav-grid {
+    font-size: 2em; }
   h1, h2 {
     margin-left: 5rem;
     margin-right: 5rem; }
   p {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    font-size: 1.2em; }
+    font-size: 2em; }
   .img__pfp {
     width: 20em;
     height: 20em;
@@ -242,6 +298,230 @@ label {
   /* contact related items */
   .contact__fieldset-position {
     left: 7vw;
+    top: 2vh; }
+  fieldset {
+    width: 40rem; }
+  /*  about related items */
+  h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .video {
+    width: 37rem;
+    height: 40rem; } }
+
+@media screen and (min-width: 600px) {
+  /* index related items */
+  .nav-grid {
+    font-size: 2em; }
+  h1, h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 2em; }
+  .img__pfp {
+    width: 30em;
+    height: 30em;
+    left: 25vw;
+    top: -12vh; }
+  /* journey related items */
+  .weblogo {
+    width: 5em;
+    height: 5em; }
+  .jslogo {
+    width: 6em;
+    height: 5em; }
+  .pylogo {
+    width: 4.5em;
+    height: 5em; }
+  .csharplogo {
+    width: 5em;
+    height: 5em; }
+  .unitylogo {
+    width: 12.5em;
+    height: 5em; }
+  .cpluslogo {
+    width: 5em;
+    height: 5em; }
+  .unreallogo {
+    width: 5em;
+    height: 5em; }
+  .lang-grid {
+    grid-gap: 1rem;
+    left: 1vw;
+    justify-items: center; }
+  /* contact related items */
+  .contact__fieldset-position {
+    left: 16vw;
+    top: 2vh; }
+  fieldset {
+    width: 40rem; }
+  /*  about related items */
+  h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .video {
+    width: 37rem;
+    height: 40rem; } }
+
+@media screen and (min-width: 768px) {
+  /* index related items */
+  .nav-grid {
+    font-size: 2em; }
+  h1, h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.7em; }
+  .img__pfp {
+    width: 18em;
+    height: 18em;
+    left: 40vw;
+    top: -12vh; }
+  /* journey related items */
+  .weblogo {
+    width: 5em;
+    height: 5em; }
+  .jslogo {
+    width: 6em;
+    height: 5em; }
+  .pylogo {
+    width: 4.5em;
+    height: 5em; }
+  .csharplogo {
+    width: 5em;
+    height: 5em; }
+  .unitylogo {
+    width: 12.5em;
+    height: 5em; }
+  .cpluslogo {
+    width: 5em;
+    height: 5em; }
+  .unreallogo {
+    width: 5em;
+    height: 5em; }
+  .lang-grid {
+    grid-gap: 1rem;
+    left: 1vw;
+    justify-items: center; }
+  /* contact related items */
+  .contact__fieldset-position {
+    left: 25vw;
+    top: 2vh; }
+  fieldset {
+    width: 40rem; }
+  /*  about related items */
+  h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .video {
+    width: 37rem;
+    height: 40rem; } }
+
+@media screen and (min-width: 1024px) {
+  /* index related items */
+  .nav-grid {
+    font-size: 2.2em; }
+  h1, h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 2.5em; }
+  .img__pfp {
+    width: 30em;
+    height: 30em;
+    left: 37vw;
+    top: -12vh; }
+  /* journey related items */
+  .weblogo {
+    width: 5em;
+    height: 5em; }
+  .jslogo {
+    width: 6em;
+    height: 5em; }
+  .pylogo {
+    width: 4.5em;
+    height: 5em; }
+  .csharplogo {
+    width: 5em;
+    height: 5em; }
+  .unitylogo {
+    width: 12.5em;
+    height: 5em; }
+  .cpluslogo {
+    width: 5em;
+    height: 5em; }
+  .unreallogo {
+    width: 5em;
+    height: 5em; }
+  .lang-grid {
+    grid-gap: 1rem;
+    left: 1vw;
+    justify-items: center; }
+  /* contact related items */
+  .contact__fieldset-position {
+    left: 30vw;
+    top: 2vh; }
+  fieldset {
+    width: 40rem; }
+  /*  about related items */
+  h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  .video {
+    width: 37rem;
+    height: 40rem; } }
+
+@media screen and (min-width: 1200px) {
+  /* index related items */
+  .nav-grid {
+    font-size: 2.2em; }
+  h1, h2 {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 2.5em; }
+  .img__pfp {
+    width: 30em;
+    height: 30em;
+    left: 39vw;
+    top: -12vh; }
+  /* journey related items */
+  .weblogo {
+    width: 5em;
+    height: 5em; }
+  .jslogo {
+    width: 6em;
+    height: 5em; }
+  .pylogo {
+    width: 4.5em;
+    height: 5em; }
+  .csharplogo {
+    width: 5em;
+    height: 5em; }
+  .unitylogo {
+    width: 12.5em;
+    height: 5em; }
+  .cpluslogo {
+    width: 5em;
+    height: 5em; }
+  .unreallogo {
+    width: 5em;
+    height: 5em; }
+  .lang-grid {
+    grid-gap: 1rem;
+    left: 1vw;
+    justify-items: center; }
+  /* contact related items */
+  .contact__fieldset-position {
+    left: 35vw;
     top: 2vh; }
   fieldset {
     width: 40rem; }
