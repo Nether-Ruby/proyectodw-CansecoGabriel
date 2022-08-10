@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
     /* index related items */
     .nav-grid {
         font-size: 1.4em;
@@ -70,7 +70,7 @@
         height: 20rem;
     }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 599px) {
     /* index related items */
     .nav-grid {
         font-size: 2em;
@@ -142,7 +142,7 @@
         height: 40rem;
     }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
     /* index related items */
     .nav-grid {
         font-size: 2em;
@@ -214,10 +214,10 @@
         height: 40rem;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     /* index related items */
     .nav-grid {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     h1 {
         margin-left: 5rem;
@@ -226,7 +226,7 @@
     p {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        font-size: 1.7em;
+        font-size: 2em;
     }
     .img__pfp {
         width: 18em;
@@ -286,7 +286,7 @@
         height: 40rem;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1199) {
     /* index related items */
     .nav-grid {
         font-size: 2.2em;
@@ -358,7 +358,7 @@
         height: 40rem;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1599) {
     /* index related items */
     .nav-grid {
         font-size: 2.2em;

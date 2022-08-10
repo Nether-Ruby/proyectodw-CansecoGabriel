@@ -5,10 +5,12 @@ fieldset {
 }
 legend {
     color: map-get($colors, paragraph);
+    font-size: 2em;
 }
 input {
+    height: 50px;
     padding: 0.50rem;
-    font-size: 2.3em;
+    font-size: 2em !important;
     margin: 0.5rem;
 }
 label {
@@ -20,4 +22,11 @@ label {
     position: relative;
     left: 38vw;
     top: 2vh;
+}
+textarea {
+    font-size: 2em !important;
+}
+.contact__btn-sizing {
+    @include  socials (100px, 50px);
+    font-size: 2em;
 }

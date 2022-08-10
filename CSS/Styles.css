@@ -80,7 +80,7 @@ a {
 .img__pfp {
   position: relative;
   top: -19vh;
-  left: 38.5vw;
+  left: 39.5vw;
   z-index: 1000;
   width: 40em;
   height: 40em; }
@@ -180,11 +180,13 @@ fieldset {
   border-style: groove; }
 
 legend {
-  color: #2dc919; }
+  color: #2dc919;
+  font-size: 2em; }
 
 input {
+  height: 50px;
   padding: 0.50rem;
-  font-size: 2.3em;
+  font-size: 2em !important;
   margin: 0.5rem; }
 
 label {
@@ -197,7 +199,15 @@ label {
   left: 38vw;
   top: 2vh; }
 
-@media screen and (min-width: 320px) {
+textarea {
+  font-size: 2em !important; }
+
+.contact__btn-sizing {
+  width: 100px;
+  height: 50px;
+  font-size: 2em; }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
   /* index related items */
   .nav-grid {
     font-size: 1.4em; }
@@ -253,7 +263,7 @@ label {
     width: 20rem;
     height: 20rem; } }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 599px) {
   /* index related items */
   .nav-grid {
     font-size: 2em; }
@@ -309,7 +319,7 @@ label {
     width: 37rem;
     height: 40rem; } }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
   /* index related items */
   .nav-grid {
     font-size: 2em; }
@@ -365,17 +375,17 @@ label {
     width: 37rem;
     height: 40rem; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   /* index related items */
   .nav-grid {
-    font-size: 2em; }
+    font-size: 2.5em; }
   h1, h2 {
     margin-left: 5rem;
     margin-right: 5rem; }
   p {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    font-size: 1.7em; }
+    font-size: 2em; }
   .img__pfp {
     width: 18em;
     height: 18em;
@@ -421,7 +431,7 @@ label {
     width: 37rem;
     height: 40rem; } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1199) {
   /* index related items */
   .nav-grid {
     font-size: 2.2em; }
@@ -477,7 +487,7 @@ label {
     width: 37rem;
     height: 40rem; } }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1599) {
   /* index related items */
   .nav-grid {
     font-size: 2.2em; }
